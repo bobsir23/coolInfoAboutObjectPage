@@ -3,7 +3,39 @@ body {
   text-align: center;
   background-color: lightgray;
 }
-h1 {
+.new img {
+  width: 400px;
+  height: 300px;
+}
+#line1 {
+  position: absolute;
+  background-color: black;
+  width: 200px;
+  height: 4px;
+  transform: rotate(20deg);
+  top: 100px;
+  left: 250px;
+}
+#line2 {
+  position: absolute;
+  background-color: black;
+  width: 200px;
+  height: 4px;
+  transform: rotate(160deg);
+  top: 180px;
+  left: 700px;
+}
+#word1 {
+  position: absolute;
+  top: 50px;
+  left: 210px;
+}
+#word2 {
+  position: absolute;
+  top: 130px;
+  left: 850px;
+}
+/* h1 {
   background-color: yellow;
   margin: 40px, auto;
   padding-top: 30px;
@@ -18,4 +50,4 @@ h1 {
 img {
   width: 500px;
   height: 432px;
-}
+} */
